@@ -235,3 +235,6 @@ right join competencies t2
 on t1.competencies_id = t2.id
 where t1.competencies_id is null;
 
+create database homework;
+use homework;
+
