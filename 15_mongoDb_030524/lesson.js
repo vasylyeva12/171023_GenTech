@@ -100,3 +100,10 @@ db.users.find( {
     ]      
 })
 
+db.users.find({
+    $and: [
+      {gender: 'm'},
+      {age: {$gte: 15, $lte: 30}}
+    ]
+  })
+
